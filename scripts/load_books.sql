@@ -1,10 +1,7 @@
--- Create the database if it doesn't exist
 CREATE DATABASE IF NOT EXISTS books_genres_db;
 
--- Use the database
 USE books_genres_db;
 
--- Create the books table if it doesn't exist
 CREATE TABLE IF NOT EXISTS books (
     ISBN VARCHAR(20) NOT NULL PRIMARY KEY,
     Book_Title VARCHAR(255) NULL,
